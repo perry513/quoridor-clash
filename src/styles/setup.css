@@ -1,0 +1,230 @@
+/* Setup screen: logo, hero cards, roster, arena tiles and rule options. */
+.logo { display: grid; justify-items: center; gap: 4px; padding-block: 8px 18px; text-align: center; }
+.logo-word {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(52px, 10vw, 104px);
+  line-height: .95;
+  color: var(--gold);
+  letter-spacing: .01em;
+  text-shadow: 0 3px 0 #d98a00, 0 7px 0 var(--edge-dark), 0 14px 24px rgba(0,0,0,.45);
+}
+.logo-ribbon { filter: drop-shadow(0 4px 0 var(--ribbon-deep)); margin-top: -6px; }
+.logo-ribbon span {
+  display: inline-block;
+  background: var(--ribbon);
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: clamp(18px, 3vw, 26px);
+  letter-spacing: .32em;
+  padding: 4px 34px 4px 40px;
+  clip-path: polygon(0 0, 100% 0, 94% 50%, 100% 100%, 0 100%, 6% 50%);
+}
+.tagline { margin: 10px 0 0; color: var(--ink-dim); font-size: 16px; }
+
+.panel-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
+
+.setup-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr);
+  gap: 22px;
+  align-items: start;
+}
+
+/* ---------- Hero cards ---------- */
+.slots { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 14px; }
+.slot {
+  --hc: #888;
+  position: relative;
+  border-radius: 18px;
+  padding: 14px 12px 12px;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--hc) 30%, #221f5e) 0%, #1d1a52 75%);
+  border: 3px solid color-mix(in srgb, var(--hc) 55%, #221f5e);
+  display: grid; justify-items: center; gap: 8px;
+  cursor: pointer;
+  transition: transform .15s, border-color .15s;
+  min-width: 0;
+}
+.slot.active { border-color: var(--gold); box-shadow: 0 0 0 3px rgba(255,197,61,.25); }
+.slot-top { display: flex; width: 100%; justify-content: space-between; align-items: center; gap: 6px; }
+.pnum {
+  font-family: var(--font-display); font-size: 15px;
+  background: var(--hc); color: #fff; padding: 2px 10px; border-radius: 999px;
+  text-shadow: 0 1px 0 rgba(0,0,0,.3);
+}
+.start-side { font-size: 12px; color: var(--ink-dim); text-align: right; }
+/* Full-body hero standing on a glowing spot in the card. */
+.slot-figure {
+  position: relative;
+  width: 116px; max-width: 100%;
+  aspect-ratio: 100 / 130;
+  animation: pop .35s cubic-bezier(.3,1.6,.5,1);
+}
+.slot-figure::before {
+  content: "";
+  position: absolute; left: 2%; right: 2%; top: 14%; bottom: 4%;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, color-mix(in srgb, var(--hc) 70%, #fff 30%) 0%, color-mix(in srgb, var(--hc) 30%, transparent) 60%, transparent 100%);
+  opacity: .75;
+}
+.slot-figure svg { position: relative; display: block; width: 100%; height: 100%; overflow: visible; }
+.slot-cycle { display: grid; grid-template-columns: 34px minmax(0,1fr) 34px; align-items: center; gap: 4px; width: 100%; }
+.arrow {
+  width: 34px; height: 34px; border-radius: 50%; border: 0;
+  background: rgba(255,255,255,.12); font-family: var(--font-display); font-size: 20px; line-height: 1;
+  display: grid; place-items: center;
+}
+.arrow:hover { background: rgba(255,255,255,.22); }
+.hero-id { text-align: center; min-width: 0; }
+.hero-id strong { display: block; font-family: var(--font-display); font-weight: 400; font-size: 19px; line-height: 1.1; overflow-wrap: anywhere; }
+.hero-id span { font-size: 12px; color: var(--ink-dim); }
+.slot input {
+  width: 100%;
+  border: 2px solid rgba(255,255,255,.12);
+  background: rgba(0,0,0,.25);
+  color: var(--ink);
+  border-radius: 10px;
+  padding: 7px 10px;
+  font: inherit; font-size: 14px;
+  text-align: center;
+}
+.slot input::placeholder { color: #8d89c7; }
+.slot input:focus { border-color: var(--gold); outline: none; }
+
+/* ---------- Roster ---------- */
+.roster-label { margin: 18px 0 10px; font-size: 13px; color: var(--ink-dim); }
+.roster-label b { color: var(--ink); }
+.roster { display: grid; grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: 10px; }
+.roster button {
+  position: relative;
+  border: 3px solid transparent;
+  background: rgba(0,0,0,.2);
+  border-radius: 16px;
+  padding: 8px 4px 8px;
+  display: grid; justify-items: center; gap: 6px;
+  font-size: 12px; color: var(--ink-dim);
+  transition: transform .12s, background .12s;
+  min-width: 0; overflow-wrap: anywhere;
+}
+.roster button:hover { transform: translateY(-3px); background: rgba(255,255,255,.08); }
+.roster button[aria-pressed="true"] { border-color: var(--gold); color: var(--ink); background: rgba(255,197,61,.12); }
+.taken {
+  position: absolute; top: 4px; right: 4px;
+  font-family: var(--font-display); font-size: 11px;
+  background: var(--tc); color: #fff; border-radius: 999px; padding: 1px 6px;
+  border: 2px solid #fff;
+}
+
+/* ---------- Arena options ---------- */
+.opts { display: grid; grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: 10px; }
+.opt {
+  position: relative;
+  border: 3px solid transparent;
+  background: rgba(0,0,0,.22);
+  border-radius: 16px;
+  padding: 8px;
+  display: grid; gap: 6px; justify-items: center;
+  font-size: 13px;
+  transition: transform .12s;
+  min-width: 0;
+}
+.opt:hover { transform: translateY(-2px); }
+.opt svg { width: 100%; height: auto; display: block; border-radius: 10px; }
+.opt[aria-pressed="true"] { border-color: var(--gold); background: rgba(255,197,61,.12); }
+.opt[aria-pressed="true"]::after {
+  content: "\2713"; position: absolute; top: -9px; right: -9px;
+  width: 24px; height: 24px; border-radius: 50%;
+  background: var(--gold); color: var(--gold-ink);
+  display: grid; place-items: center; font-size: 14px; font-weight: 900;
+  box-shadow: 0 2px 0 var(--gold-deep);
+}
+.opt-rows { display: grid; gap: 10px; }
+.opt-row {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap;
+  background: rgba(0,0,0,.18); border-radius: 14px; padding: 10px 12px;
+}
+.switch {
+  width: 56px; height: 32px; border-radius: 999px; border: 0; padding: 0;
+  background: #48448f; position: relative; transition: background .2s; flex: none;
+}
+.switch::after {
+  content: ""; position: absolute; top: 4px; left: 4px; width: 24px; height: 24px; border-radius: 50%;
+  background: #fff; box-shadow: 0 2px 0 rgba(0,0,0,.25); transition: transform .2s;
+}
+.switch[aria-checked="true"] { background: #2fb36d; }
+.switch[aria-checked="true"]::after { transform: translateX(24px); }
+.stepper { display: inline-flex; align-items: center; gap: 6px; }
+.stepper button { width: 34px; height: 34px; border-radius: 10px; border: 0; background: rgba(255,255,255,.12); font-family: var(--font-display); font-size: 20px; }
+.stepper button:disabled { opacity: .4; cursor: not-allowed; }
+.stepper output { min-width: 34px; text-align: center; font-family: var(--font-display); font-size: 22px; font-variant-numeric: tabular-nums; }
+.setup-note { font-size: 12px; color: var(--ink-dim); margin: 8px 2px 0; }
+
+.start-row { display: flex; justify-content: center; align-items: center; gap: 16px; flex-wrap: wrap; margin-top: 30px; }
+
+@media (max-width: 920px) {
+  .setup-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 480px) {
+  .slots { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .slot { padding: 12px 8px 10px; }
+  .slot-figure { width: 92px; }
+  .hero-id strong { font-size: 16px; }
+  .slot-cycle { grid-template-columns: 30px minmax(0,1fr) 30px; }
+  .arrow { width: 30px; height: 30px; }
+  .start-side { font-size: 11px; }
+}
+
+/* ---------- One-screen setup on desktop/tablet landscape ----------
+   Everything (title, heroes, roster, arena, Start) fits in the viewport without
+   scrolling. Sizes scale with viewport height so short laptop screens fit too.
+   Narrow screens (phones, < 921px) keep the stacked, scrolling layout. */
+@media (min-width: 921px) {
+  #setup {
+    min-height: calc(100dvh - 48px);
+    display: flex; flex-direction: column;
+    --fig: clamp(64px, 12vh, 104px);
+    --tile: clamp(52px, 8.5vh, 84px);
+  }
+  #setup .logo { padding-block: 0 clamp(6px, 1.6vh, 14px); gap: 0; }
+  #setup .logo-word { font-size: clamp(40px, 7.5vh, 76px); }
+  #setup .logo-ribbon span { font-size: clamp(14px, 2.2vh, 20px); padding: 2px 28px 2px 32px; }
+  #setup .tagline { margin-top: clamp(4px, .8vh, 8px); font-size: 14px; }
+  #setup .setup-grid { gap: 18px; align-items: stretch; }
+  #setup .panel { padding: clamp(12px, 1.8vh, 18px); }
+  #setup .panel-head { margin-bottom: clamp(8px, 1.4vh, 14px); }
+  #setup h2 { font-size: 22px; }
+  #setup h3 { margin: clamp(8px, 1.4vh, 14px) 0 6px; }
+  #setup .slot { padding: 8px 10px 10px; gap: 6px; }
+  #setup .slot-figure { width: var(--fig); }
+  #setup .slot input { padding: 5px 10px; }
+  #setup .roster-label { margin: clamp(8px, 1.4vh, 14px) 0 6px; }
+  #setup .roster { grid-template-columns: repeat(auto-fit, minmax(66px, 1fr)); gap: 6px; }
+  #setup .roster button { padding: 5px 2px 6px; gap: 3px; font-size: 11px; border-radius: 12px; }
+  #setup .roster .mini-portrait { width: clamp(34px, 5.4vh, 50px); }
+  #setup .opts { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+  #setup .opt { padding: 6px; gap: 3px; font-size: 12px; }
+  #setup .opt svg { width: var(--tile); max-width: 100%; }
+  #setup .opt-rows { gap: 6px; }
+  #setup .opt-row { padding: 6px 12px; }
+  #setup .setup-note { margin-top: 6px; }
+  #setup .start-row { margin-top: clamp(12px, 2.2vh, 22px); }
+  #setup .btn.big { padding-block: 10px; }
+  #setup .fanline { margin-top: auto; padding-top: 10px; }
+}
+
+/* Short landscape screens (most laptops): title on one line, tighter arena. */
+@media (min-width: 921px) and (max-height: 760px) {
+  .app { padding-block: 12px 14px; }
+  #setup { min-height: calc(100dvh - 26px); }
+  #setup .logo { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; column-gap: 14px; padding-bottom: 8px; }
+  #setup .logo-word { font-size: clamp(36px, 7vh, 52px); }
+  #setup .logo-ribbon { margin-top: 0; }
+  #setup .tagline { display: none; }
+  #setup .opt-row { padding-block: 3px; }
+  #setup h3 { margin: 6px 0 4px; }
+  #setup .setup-note { display: none; }
+  #setup .start-row { margin-top: 10px; }
+  #setup .btn.big { padding-block: 8px; font-size: 22px; }
+  #setup .fanline { padding-top: 6px; margin-bottom: -10px; }
+}

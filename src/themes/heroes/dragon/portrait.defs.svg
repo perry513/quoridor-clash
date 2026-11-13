@@ -1,0 +1,9 @@
+<radialGradient id="dragon-scale" cx=".38" cy=".3" r=".8"><stop offset="0" stop-color="#a8f7c6"/><stop offset=".45" stop-color="#3cc882"/><stop offset="1" stop-color="#137a48"/></radialGradient>
+<linearGradient id="dragon-body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1e9e60"/><stop offset="1" stop-color="#074a2a"/></linearGradient>
+<linearGradient id="dragon-belly" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6fff4"/><stop offset=".45" stop-color="#cdf0d2"/><stop offset="1" stop-color="#7fc898"/></linearGradient>
+<linearGradient id="dragon-horn" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fffbef"/><stop offset=".5" stop-color="#f3dda8"/><stop offset="1" stop-color="#b89355"/></linearGradient>
+<radialGradient id="dragon-spike" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#ffd59a"/><stop offset=".45" stop-color="#ff9a3c"/><stop offset="1" stop-color="#d45b16"/></radialGradient>
+<radialGradient id="dragon-snout" cx=".4" cy=".28" r=".8"><stop offset="0" stop-color="#e4fff0"/><stop offset=".5" stop-color="#93e8b8"/><stop offset="1" stop-color="#4cb97f"/></radialGradient>
+<linearGradient id="dragon-frill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7ee8ac"/><stop offset=".3" stop-color="#1c9a5a"/><stop offset="1" stop-color="#063d24"/></linearGradient>
+<linearGradient id="dragon-frill-r" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4fcf8c"/><stop offset=".3" stop-color="#178a50"/><stop offset="1" stop-color="#05361f"/></linearGradient>
+<linearGradient id="dragon-rim" x1="0" y1="0" x2="1" y2="1"><stop offset=".55" stop-color="#c8ffdd" stop-opacity="0"/><stop offset="1" stop-color="#c8ffdd" stop-opacity=".75"/></linearGradient>

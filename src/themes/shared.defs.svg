@@ -1,0 +1,9 @@
+<radialGradient id="sh-skin" cx=".38" cy=".3" r=".8"><stop offset="0" stop-color="#fff4ea"/><stop offset=".45" stop-color="#ffd9b8"/><stop offset="1" stop-color="#e09c76"/></radialGradient>
+<linearGradient id="sh-eye" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5b4a86"/><stop offset="1" stop-color="#171128"/></linearGradient>
+<radialGradient id="sh-blush"><stop offset="0" stop-color="#ff6f8e" stop-opacity=".75"/><stop offset="1" stop-color="#ff6f8e" stop-opacity="0"/></radialGradient>
+<radialGradient id="sh-gloss" cx=".35" cy=".28" r=".55"><stop offset="0" stop-color="#ffffff" stop-opacity=".8"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+<radialGradient id="sh-ao"><stop offset="0" stop-color="#1a1030" stop-opacity=".45"/><stop offset="1" stop-color="#1a1030" stop-opacity="0"/></radialGradient>
+<radialGradient id="sh-bd-light" cx=".32" cy=".22" r=".7"><stop offset="0" stop-color="#ffffff" stop-opacity=".5"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+<radialGradient id="sh-bd-dark" cx=".5" cy=".45" r=".62"><stop offset=".6" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity=".35"/></radialGradient>
+<filter id="sh-blur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.4"/></filter>
+<filter id="sh-blur-lg" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3"/></filter>

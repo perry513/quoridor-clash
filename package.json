@@ -1,0 +1,20 @@
+{
+  "name": "quoridor-clash",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Local hot-seat wall-and-race board game for 2 or 4 players, played in the browser.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0"
+  }
+}

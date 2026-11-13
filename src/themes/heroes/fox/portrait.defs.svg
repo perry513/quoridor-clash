@@ -1,0 +1,10 @@
+<radialGradient id="fox-fur" cx=".38" cy=".3" r=".78"><stop offset="0" stop-color="#ffb46a"/><stop offset=".45" stop-color="#f47a24"/><stop offset="1" stop-color="#9c3806"/></radialGradient>
+<linearGradient id="fox-ear" x1=".2" y1="0" x2=".8" y2="1"><stop offset="0" stop-color="#ff9a45"/><stop offset=".55" stop-color="#ef6c17"/><stop offset="1" stop-color="#a83f0a"/></linearGradient>
+<linearGradient id="fox-inner" x1=".3" y1="0" x2=".7" y2="1"><stop offset="0" stop-color="#ffe9d4"/><stop offset="1" stop-color="#f3b38f"/></linearGradient>
+<linearGradient id="fox-tipL" x1="0" y1="0" x2=".6" y2=".62"><stop offset="0" stop-color="#2a1c1c"/><stop offset=".26" stop-color="#3a2626"/><stop offset=".46" stop-color="#5a2a14" stop-opacity=".55"/><stop offset=".62" stop-color="#7a3010" stop-opacity="0"/></linearGradient>
+<linearGradient id="fox-tipR" x1="1" y1="0" x2=".4" y2=".62"><stop offset="0" stop-color="#2a1c1c"/><stop offset=".26" stop-color="#3a2626"/><stop offset=".46" stop-color="#5a2a14" stop-opacity=".55"/><stop offset=".62" stop-color="#7a3010" stop-opacity="0"/></linearGradient>
+<radialGradient id="fox-cream" cx=".36" cy=".2" r=".9"><stop offset="0" stop-color="#ffffff"/><stop offset=".42" stop-color="#fff0dd"/><stop offset=".8" stop-color="#f3cfa8"/><stop offset="1" stop-color="#dfa77a"/></radialGradient>
+<radialGradient id="fox-nose" cx=".35" cy=".3" r=".75"><stop offset="0" stop-color="#6e5a72"/><stop offset=".5" stop-color="#2b2236"/><stop offset="1" stop-color="#120c18"/></radialGradient>
+<linearGradient id="fox-jacket" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4f8ce6"/><stop offset=".45" stop-color="#2b5fb0"/><stop offset="1" stop-color="#16346e"/></linearGradient>
+<linearGradient id="fox-scarf" x1="0" y1="0" x2=".3" y2="1"><stop offset="0" stop-color="#fff09a"/><stop offset=".45" stop-color="#ffd23f"/><stop offset="1" stop-color="#d8930c"/></linearGradient>
+<radialGradient id="fox-rim" cx=".3" cy=".25" r=".8"><stop offset=".82" stop-color="#ffd6a8" stop-opacity="0"/><stop offset=".97" stop-color="#ffd6a8" stop-opacity=".75"/><stop offset="1" stop-color="#ffd6a8" stop-opacity="0"/></radialGradient>

@@ -1,0 +1,72 @@
+<ellipse class="hero-shadow" cx="50" cy="121" rx="34" ry="6.5" fill="#12082a" opacity=".5" filter="url(#sh-blur)"/>
+<g class="hero-figure">
+<path d="M20 113.5 L20 118.5 A30 7.2 0 0 0 80 118.5 L80 113.5Z" fill="url(#princess-full-baseside)"/>
+<ellipse cx="50" cy="113.5" rx="30" ry="7.2" fill="url(#princess-full-basetop)" stroke="#a82a66" stroke-width=".6"/>
+<path d="M22.5 111.5 Q30 106.6 50 106.3" stroke="#fff" stroke-width="1.4" fill="none" stroke-linecap="round" opacity=".9"/>
+<path d="M79 120 Q73 124.5 58 125.5" stroke="#ffc2de" stroke-width="1" fill="none" stroke-linecap="round" opacity=".55"/>
+<ellipse cx="50" cy="113" rx="25" ry="4.5" fill="url(#sh-ao)"/>
+<path d="M26.5 36 Q25 19 50 18 Q75 19 73.5 36 L73.5 66 Q74 76 68.5 79 Q63 75 60 70 L40 70 Q37 75 31.5 79 Q26 76 26.5 66 Z" fill="url(#princess-full-hairback)"/>
+<path d="M31 50 Q30 64 31 76 M69 50 Q70 64 69 76" stroke="#ffe08a" stroke-width="1.2" fill="none" stroke-linecap="round" opacity=".7"/>
+<path d="M42 64 Q50 66 58 64 Q66 72 71 90 Q74 102 79 108 Q65 114 50 113 Q35 114 21 108 Q26 102 29 90 Q34 72 42 64Z" fill="url(#princess-full-dress)"/>
+<path d="M47.5 66 Q43 90 37 112.5 L63 112.5 Q57 90 52.5 66Z" fill="url(#princess-full-panel)" opacity=".9"/>
+<path d="M47.5 66 Q43 90 37 112.5 M52.5 66 Q57 90 63 112.5" stroke="url(#princess-full-gold)" stroke-width="1.3" fill="none"/>
+<path d="M31 84 Q28 98 27 109 M69 84 Q72 98 73 109" stroke="#9a1f58" stroke-width="1.6" fill="none" stroke-linecap="round" opacity=".4"/>
+<path d="M66 72 Q74 92 78 107 Q72 110 66 111 Q69 92 62 70Z" fill="#6e1442" opacity=".35" filter="url(#sh-blur)"/>
+<ellipse cx="38" cy="85" rx="4" ry="10" fill="url(#sh-gloss)" opacity=".7"/>
+<path d="M66 77 Q71.5 94 76 105.5" stroke="#ffb0d3" stroke-width="1" fill="none" stroke-linecap="round" opacity=".55"/>
+<path d="M22 106.6 Q35 112.4 50 111.6 Q65 112.4 78 106.6" stroke="url(#princess-full-gold)" stroke-width="1.4" fill="none"/>
+<g fill="url(#princess-full-pearl)"><circle cx="50" cy="80" r="1.3"/><circle cx="50" cy="91" r="1.4"/><circle cx="50" cy="102" r="1.5"/></g>
+<path d="M20.5 107.5 Q24 111 28 109.5 Q31 113 35 111 Q38.5 114.5 43 112.5 Q46.5 116 50 113.8 Q53.5 116 57 112.5 Q61.5 114.5 65 111 Q69 113 72 109.5 Q76 111 79.5 107.5 Q65 113.5 50 112.5 Q35 113.5 20.5 107.5Z" fill="#fff" opacity=".95"/>
+<path d="M42.5 51.5 Q50 54.5 57.5 51.5 Q61 54 60 60 L58 66.5 Q50 69 42 66.5 L40 60 Q39 54 42.5 51.5Z" fill="url(#princess-full-dress)"/>
+<ellipse cx="45" cy="58" rx="3" ry="5" fill="url(#sh-gloss)" opacity=".6"/>
+<path d="M41 64.5 Q50 67.5 59 64.5 L59.5 67.3 Q50 70.3 40.5 67.3Z" fill="url(#princess-full-gold)"/>
+<circle cx="50" cy="67.8" r="1.9" fill="url(#princess-full-gem)"/><circle cx="49.4" cy="67.2" r=".55" fill="#fff"/>
+<ellipse cx="50" cy="54" rx="8" ry="3" fill="url(#sh-ao)"/>
+<path d="M44.2 53.6 Q50 59.2 55.8 53.6" stroke="url(#princess-full-collar)" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<circle cx="50" cy="58.1" r="1.6" fill="url(#princess-full-gem)"/><circle cx="49.5" cy="57.6" r=".5" fill="#fff"/>
+<ellipse cx="36" cy="73.5" rx="4.5" ry="2.2" fill="url(#sh-ao)"/>
+<path d="M41 59 Q38.5 65 36.5 70" stroke="#6e1442" stroke-width="2" fill="none" opacity=".3" filter="url(#sh-blur)"/>
+<path d="M39 58 Q36 64 33.5 70" stroke="#f2bf9c" stroke-width="4.4" fill="none" stroke-linecap="round"/>
+<path d="M38 58.5 Q35.5 63.5 33.2 68.5" stroke="#fff1e4" stroke-width="1.1" fill="none" stroke-linecap="round" opacity=".7"/>
+<circle cx="33.5" cy="71" r="3" fill="url(#sh-skin)"/>
+<circle cx="40" cy="55.5" r="5" fill="url(#princess-full-puff)"/>
+<path d="M36 57.5 Q40 60.5 44 57.5" stroke="#fff" stroke-width="1.3" fill="none" stroke-linecap="round" opacity=".9"/>
+<circle cx="60" cy="55.5" r="5" fill="url(#princess-full-puff)"/>
+<path d="M56 57.5 Q60 60.5 64 57.5" stroke="#fff" stroke-width="1.3" fill="none" stroke-linecap="round" opacity=".9"/>
+<g transform="translate(11,-9) scale(.78)">
+<circle cx="50" cy="56" r="24.5" fill="url(#sh-skin)"/>
+<path d="M26 60 Q33 48 45 48 Q55 49 59 44 Q71 46 74 60 Q70 50 59 46 Q55 51 45 50 Q33 50 26 60Z" fill="#a8553a" opacity=".35" filter="url(#sh-blur)"/>
+<path d="M27 58 Q27 70 32 76 M73 58 Q73 70 68 76" stroke="#8a4a2e" stroke-width="3" fill="none" opacity=".25" filter="url(#sh-blur)"/>
+<g class="hero-eyes">
+<ellipse cx="41" cy="57" rx="3.8" ry="4.8" fill="url(#sh-eye)"/><circle cx="42.3" cy="55.2" r="1.6" fill="#fff"/><circle cx="39.8" cy="59.4" r=".7" fill="#fff"/>
+<ellipse cx="59" cy="57" rx="3.8" ry="4.8" fill="url(#sh-eye)"/><circle cx="60.3" cy="55.2" r="1.6" fill="#fff"/><circle cx="57.8" cy="59.4" r=".7" fill="#fff"/>
+</g>
+<path d="M37.5 51.5 Q40.5 50.4 43.5 51.4 M56.5 51.4 Q59.5 50.4 62.5 51.5" stroke="#b8741a" stroke-width="1" fill="none" stroke-linecap="round" opacity=".6"/>
+<ellipse cx="34.5" cy="64" rx="5" ry="3" fill="url(#sh-blush)"/><ellipse cx="65.5" cy="64" rx="5" ry="3" fill="url(#sh-blush)"/>
+<path d="M45.5 66 Q50 70 54.5 66" stroke="#5a2a3a" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<path d="M25 57 Q23 29 50 29 Q77 29 75 57 Q71 43 59 41 Q55 47 45 45 Q33 45 25 57Z" fill="url(#princess-full-hair)"/>
+<path d="M61 31 Q75 35 75.5 56 Q72 45 63 41.5 Z" fill="#8a500c" opacity=".38" filter="url(#sh-blur)"/>
+<path d="M75 57 Q71 43 59 41 Q55 47 45 45 Q33 45 25 57" stroke="#a8670f" stroke-width="1.1" fill="none" stroke-linejoin="round" opacity=".45"/>
+<path d="M45 45 Q47 40 46 35 M59 41 Q58 37 55 35" stroke="#b06a12" stroke-width="1.3" fill="none" stroke-linecap="round" opacity=".55"/>
+<ellipse cx="40" cy="38" rx="11" ry="6" fill="url(#sh-gloss)" opacity=".8"/>
+<path d="M30 46 Q34 36 44 33 M47 35 Q52 33 56 35 M27.5 53 Q29 45 34.5 41.5 M35 44.5 Q38.5 40.5 43 39.5" stroke="#fff4c4" stroke-width="1.8" fill="none" stroke-linecap="round" opacity=".8"/>
+<ellipse cx="50" cy="34" rx="14" ry="2.6" fill="#a8670f" opacity=".3" filter="url(#sh-blur)"/>
+<path d="M35 34 L36 18 L43 26 L50 13 L57 26 L64 18 L65 34 Q50 30 35 34Z" fill="url(#princess-full-gold)" stroke="#a86a08" stroke-width="1.3" stroke-linejoin="round"/>
+<path d="M37.5 31 L38 23 L42 28" stroke="#fffbe0" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+<circle cx="50" cy="27.5" r="3.4" fill="url(#princess-full-gem)"/><circle cx="48.8" cy="26.3" r="1.1" fill="#fff"/>
+<circle cx="36" cy="18" r="2" fill="url(#princess-full-pearl)"/><circle cx="64" cy="18" r="2" fill="url(#princess-full-pearl)"/><circle cx="50" cy="13" r="2.2" fill="url(#princess-full-pearl)"/>
+</g>
+<g class="hero-arm" style="--pivot: 18.6% 81.7%">
+<rect x="55" y="32" width="35" height="30" fill="none"/>
+<path d="M61.5 56.5 L72 54.8" stroke="#f2bf9c" stroke-width="4.4" fill="none" stroke-linecap="round"/>
+<path d="M62 55 L71 53.6" stroke="#fff1e4" stroke-width="1.1" fill="none" stroke-linecap="round" opacity=".7"/>
+<circle cx="60" cy="55.5" r="5" fill="url(#princess-full-puff)"/>
+<path d="M56 57.5 Q60 60.5 64 57.5" stroke="#fff" stroke-width="1.3" fill="none" stroke-linecap="round" opacity=".9"/>
+<path d="M71.5 57.5 L79.2 46.5" stroke="#a86a08" stroke-width="2.3" stroke-linecap="round"/>
+<path d="M71.5 57.5 L79.2 46.5" stroke="url(#princess-full-gold)" stroke-width="1.3" stroke-linecap="round"/>
+<circle cx="73" cy="54.5" r="3" fill="url(#sh-skin)"/>
+<path d="M81 37.8 L82.59 41.82 L86.9 42.08 L83.57 44.83 L84.64 49.02 L81 46.7 L77.36 49.02 L78.43 44.83 L75.1 42.08 L79.41 41.82Z" fill="url(#princess-full-star)" stroke="#c97a06" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="81" cy="44.2" r="1.4" fill="url(#princess-full-gem)"/><circle cx="79.4" cy="42.2" r=".8" fill="#fff"/>
+<path d="M88 34 L88.6 35.6 L90 36 L88.6 36.4 L88 38 L87.4 36.4 L86 36 L87.4 35.6Z M75 33.5 L75.4 34.5 L76.4 34.8 L75.4 35.1 L75 36.1 L74.6 35.1 L73.6 34.8 L74.6 34.5Z" fill="#fff6b0"/>
+</g>
+</g>

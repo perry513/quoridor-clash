@@ -1,0 +1,39 @@
+<path d="M10 104 Q11 80 50 76 Q89 80 90 104 Z" fill="url(#bear-tunic)"/>
+<path d="M10 104 Q11 80 50 76 Q89 80 90 104 Z" fill="url(#bear-tunic-side)"/>
+<path d="M22 86 Q32 80 44 79" stroke="#ff9aa4" stroke-width="2.2" fill="none" stroke-linecap="round" opacity=".55"/>
+<path d="M30 80.5 Q50 74 70 80.5" stroke="url(#bear-gold)" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M30 80.5 Q50 74 70 80.5" stroke="url(#bear-gold)" stroke-width="3" fill="none" stroke-linecap="round"/>
+<ellipse cx="50" cy="80" rx="20" ry="6" fill="url(#sh-ao)" filter="url(#sh-blur)"/>
+<ellipse cx="50.6" cy="93.4" rx="9" ry="3.4" fill="#3a0a14" opacity=".35" filter="url(#sh-blur)"/>
+<path d="M41.5 83.5 H58.5 V91.5 Q50 99.5 41.5 91.5Z" fill="url(#bear-gold)" stroke="url(#bear-gold-rim)" stroke-width="1.4" stroke-linejoin="round"/>
+<path d="M44.5 86 H55.5 V91 Q50 95.8 44.5 91Z" fill="#c42d3e" opacity=".9"/>
+<path d="M45.2 86.6 H50 V89 Q47 89.5 45.2 88.6Z" fill="#fff" opacity=".35"/>
+<circle cx="43.6" cy="85" r="1.1" fill="#fff" opacity=".95"/>
+<g opacity=".3" fill="#3b1c00" filter="url(#sh-blur-lg)"><circle cx="53" cy="59" r="25"/><circle cx="33" cy="40" r="10"/><circle cx="73" cy="40" r="10"/></g>
+<circle cx="30" cy="37" r="10" fill="url(#bear-ear)"/>
+<circle cx="31" cy="38" r="5.4" fill="url(#bear-inner)"/>
+<ellipse cx="27" cy="32.5" rx="3.6" ry="2.4" fill="url(#sh-gloss)" transform="rotate(-35 27 32.5)"/>
+<circle cx="70" cy="37" r="10" fill="url(#bear-ear)"/>
+<circle cx="69" cy="38" r="5.4" fill="url(#bear-inner)"/>
+<ellipse cx="67" cy="32.5" rx="3.6" ry="2.4" fill="url(#sh-gloss)" transform="rotate(-35 67 32.5)"/>
+<circle cx="36" cy="43" r="6" fill="url(#sh-ao)"/><circle cx="64" cy="43" r="6" fill="url(#sh-ao)"/>
+<circle cx="36" cy="43" r="6" fill="url(#sh-ao)"/><circle cx="64" cy="43" r="6" fill="url(#sh-ao)"/>
+<circle cx="50" cy="55" r="25" fill="url(#bear-fur)"/>
+<path d="M71.5 62 Q68 76 54 79.3 Q66 74 70 61Z" fill="#ffd9a0" opacity=".55" filter="url(#sh-blur)"/>
+<ellipse cx="40" cy="41" rx="12" ry="7.5" fill="url(#sh-gloss)" opacity=".5" transform="rotate(-28 40 41)"/>
+<path d="M37 36 Q40 32.5 44 32.5 M48 31.8 Q51 30.6 54 31.4" stroke="#f0c896" stroke-width="1.2" fill="none" stroke-linecap="round" opacity=".45"/>
+<ellipse cx="51" cy="71" rx="11" ry="3.2" fill="url(#sh-ao)" filter="url(#sh-blur)"/>
+<ellipse cx="50" cy="65.5" rx="11.5" ry="8.8" fill="url(#bear-muzzle)"/>
+<ellipse cx="46.5" cy="61.8" rx="4" ry="2.2" fill="#fff" opacity=".45" filter="url(#sh-blur)"/>
+<ellipse cx="35" cy="62" rx="5.4" ry="3.4" fill="url(#sh-blush)"/>
+<ellipse cx="65" cy="62" rx="5.4" ry="3.4" fill="url(#sh-blush)"/>
+<ellipse cx="41" cy="53" rx="3.8" ry="4.8" fill="url(#sh-eye)"/>
+<circle cx="39.8" cy="51.2" r="1.6" fill="#fff"/>
+<circle cx="42.4" cy="55.2" r=".7" fill="#fff"/>
+<ellipse cx="59" cy="53" rx="3.8" ry="4.8" fill="url(#sh-eye)"/>
+<circle cx="57.8" cy="51.2" r="1.6" fill="#fff"/>
+<circle cx="60.4" cy="55.2" r=".7" fill="#fff"/>
+<ellipse cx="50.4" cy="63.2" rx="4.4" ry="1.6" fill="#3a1d0c" opacity=".35" filter="url(#sh-blur)"/>
+<ellipse cx="50" cy="61.2" rx="4.4" ry="3.1" fill="url(#bear-nose)"/>
+<ellipse cx="48.6" cy="60.1" rx="1.5" ry=".8" fill="#fff" opacity=".85"/>
+<path d="M50 64.3 V66.2 M46 67 Q48 69.6 50 66.6 Q52 69.6 54 67" stroke="#2b2340" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>

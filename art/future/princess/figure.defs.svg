@@ -1,0 +1,12 @@
+<radialGradient id="princess-full-hair" cx=".34" cy=".24" r=".85"><stop offset="0" stop-color="#fff0a8"/><stop offset=".38" stop-color="#f8c24a"/><stop offset=".72" stop-color="#d58e24"/><stop offset="1" stop-color="#9a5a10"/></radialGradient>
+<linearGradient id="princess-full-hairback" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4b93e"/><stop offset=".5" stop-color="#c98420"/><stop offset="1" stop-color="#8a500c"/></linearGradient>
+<linearGradient id="princess-full-dress" x1="0" y1="0" x2="1" y2=".35"><stop offset="0" stop-color="#ff9cc9"/><stop offset=".45" stop-color="#ec5a9e"/><stop offset="1" stop-color="#a82a66"/></linearGradient>
+<linearGradient id="princess-full-panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe0ee"/><stop offset=".6" stop-color="#ffb0d3"/><stop offset="1" stop-color="#e070a8"/></linearGradient>
+<linearGradient id="princess-full-gold" x1="0" y1="0" x2=".4" y2="1"><stop offset="0" stop-color="#fff7c4"/><stop offset=".35" stop-color="#ffd23f"/><stop offset=".7" stop-color="#e9a516"/><stop offset="1" stop-color="#a86a08"/></linearGradient>
+<radialGradient id="princess-full-gem" cx=".35" cy=".3" r=".75"><stop offset="0" stop-color="#ffe0ef"/><stop offset=".4" stop-color="#ff5aa3"/><stop offset="1" stop-color="#9a1352"/></radialGradient>
+<radialGradient id="princess-full-pearl" cx=".35" cy=".3" r=".7"><stop offset="0" stop-color="#ffffff"/><stop offset=".5" stop-color="#fff3b0"/><stop offset="1" stop-color="#d9a21e"/></radialGradient>
+<linearGradient id="princess-full-collar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffb3d5"/></linearGradient>
+<radialGradient id="princess-full-puff" cx=".35" cy=".3" r=".75"><stop offset="0" stop-color="#ffd0e6"/><stop offset=".5" stop-color="#f479b3"/><stop offset="1" stop-color="#b8316f"/></radialGradient>
+<linearGradient id="princess-full-basetop" x1="0" y1="0" x2=".5" y2="1"><stop offset="0" stop-color="#ffb3d5"/><stop offset=".5" stop-color="#ec5a9e"/><stop offset="1" stop-color="#c23c80"/></linearGradient>
+<linearGradient id="princess-full-baseside" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c8408a"/><stop offset=".35" stop-color="#a82a66"/><stop offset="1" stop-color="#6e1442"/></linearGradient>
+<radialGradient id="princess-full-star" cx=".38" cy=".32" r=".7"><stop offset="0" stop-color="#ffffff"/><stop offset=".35" stop-color="#fff07a"/><stop offset=".8" stop-color="#ffc21a"/><stop offset="1" stop-color="#d98a06"/></radialGradient>

@@ -1,0 +1,37 @@
+<path d="M22 82 Q15 36 51 23 Q89 36 82 82 Z" fill="#03343a" opacity=".5" filter="url(#sh-blur-lg)" transform="translate(2 3)"/>
+<path d="M23 79 Q17 38 50 25 Q83 38 77 79 Z" fill="url(#ranger-hoodin)"/>
+<path d="M8 104 Q9 80 50 76 Q91 80 92 104 Z" fill="url(#ranger-cloak)"/>
+<path d="M8 104 Q9 80 50 76 Q91 80 92 104" stroke="#04343a" stroke-width="3" fill="none" opacity=".45" filter="url(#sh-blur)"/>
+<ellipse cx="27" cy="86" rx="11" ry="4" fill="url(#sh-gloss)" opacity=".55" transform="rotate(-18 27 86)"/>
+<ellipse cx="50" cy="79" rx="20" ry="6" fill="url(#sh-ao)"/>
+<path d="M26 84 L66 106" stroke="#3a1e08" stroke-width="7" opacity=".3" filter="url(#sh-blur)"/>
+<path d="M27 82 L67 104" stroke="url(#ranger-leather)" stroke-width="6"/>
+<path d="M28 80.6 L67 102" stroke="#d6965a" stroke-width="1.1" opacity=".7"/>
+<rect x="38" y="84" width="8" height="8" rx="1.6" transform="rotate(29 42 88)" fill="url(#ranger-buckle)" stroke="#8a5208" stroke-width=".8"/>
+<circle cx="40.5" cy="86" r=".9" fill="#fff"/>
+<circle cx="50" cy="55" r="24" fill="url(#sh-skin)"/>
+<path d="M33 54 Q35 43 50 43 Q65 43 67 54" stroke="#3a1e08" stroke-width="3" fill="none" opacity=".35" filter="url(#sh-blur)"/>
+<path d="M30 57 Q31 40 50 40 Q69 40 70 57 Q64 49 56.5 51.5 Q50 46 43.5 51.5 Q36 49 30 57Z" fill="url(#ranger-hair)"/>
+<path d="M36.5 47.5 Q40.5 44 46 44.2" stroke="#f0bc80" stroke-width="1.6" fill="none" stroke-linecap="round" opacity=".9"/>
+<path d="M54.5 44.6 Q59 44.4 62.5 47" stroke="#d29458" stroke-width="1.1" fill="none" stroke-linecap="round" opacity=".7"/>
+<ellipse cx="41" cy="56.5" rx="3.8" ry="4.8" fill="url(#sh-eye)"/>
+<circle cx="42.2" cy="54.6" r="1.6" fill="#fff"/><circle cx="39.8" cy="58.8" r=".7" fill="#fff"/>
+<ellipse cx="59" cy="56.5" rx="3.8" ry="4.8" fill="url(#sh-eye)"/>
+<circle cx="60.2" cy="54.6" r="1.6" fill="#fff"/><circle cx="57.8" cy="58.8" r=".7" fill="#fff"/>
+<ellipse cx="35" cy="63.5" rx="5" ry="3" fill="url(#sh-blush)"/>
+<ellipse cx="65" cy="63.5" rx="5" ry="3" fill="url(#sh-blush)"/>
+<path d="M45.5 65.5 Q50 69.5 54.5 65.5" stroke="#4a2a3a" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<path d="M30.5 75 Q28 47 50 41 Q72 47 69.5 75" stroke="#03252a" stroke-width="5" fill="none" opacity=".6" filter="url(#sh-blur)"/>
+<path d="M31.5 72 Q30 58 33 50 M68.5 72 Q70 58 67 50" stroke="#03252a" stroke-width="3.5" fill="none" opacity=".45" filter="url(#sh-blur)"/>
+<path d="M20 79 Q13 34 50 21 Q87 34 80 79 Q73 83 70 75 Q73 46 50 41 Q27 46 30 75 Q27 83 20 79Z" fill="url(#ranger-hood)"/>
+<path d="M30 75 Q27 46 50 41 Q73 46 70 75" stroke="#7ff0e6" stroke-width="1.2" fill="none" opacity=".4"/>
+<path d="M25 58 Q24 37 44 27" stroke="#fff" stroke-width="3.5" fill="none" opacity=".4" stroke-linecap="round" filter="url(#sh-blur)"/>
+<path d="M27 50 Q29 38 40 31" stroke="#fff" stroke-width="1.4" fill="none" opacity=".7" stroke-linecap="round"/>
+<path d="M76 74 Q80 56 74 42" stroke="#04373c" stroke-width="3" fill="none" opacity=".35" filter="url(#sh-blur)"/>
+<g transform="translate(-4 3)">
+<path d="M70 37 Q84 30 88 15 Q82 15 76 21 Q71 27 68 33Z" fill="#3a2400" opacity=".4" filter="url(#sh-blur)" transform="translate(1.5 2.5)"/>
+<path d="M69 35 Q83 29 87 13 Q80 13 75 19 Q70 25 67 31Z" fill="url(#ranger-gold)"/>
+<path d="M68 34 Q77 25 85.5 14.5" stroke="#b06c08" stroke-width="1" fill="none" stroke-linecap="round"/>
+<path d="M72 24 Q76 18.5 81 15.5" stroke="#fff" stroke-width="1.3" fill="none" opacity=".85" stroke-linecap="round"/>
+<path d="M80 26 L84 24 M77 29 L81 28" stroke="#c98410" stroke-width=".8" stroke-linecap="round"/>
+</g>

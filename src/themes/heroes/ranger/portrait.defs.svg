@@ -1,0 +1,7 @@
+<linearGradient id="ranger-cloak" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1ab3ae"/><stop offset=".5" stop-color="#0b7f82"/><stop offset="1" stop-color="#05474c"/></linearGradient>
+<radialGradient id="ranger-hood" cx=".3" cy=".22" r=".85"><stop offset="0" stop-color="#7af0e4"/><stop offset=".38" stop-color="#1fb8b4"/><stop offset=".8" stop-color="#0b7a7c"/><stop offset="1" stop-color="#065358"/></radialGradient>
+<radialGradient id="ranger-hoodin" cx=".5" cy=".55" r=".6"><stop offset="0" stop-color="#0b4a52"/><stop offset="1" stop-color="#04282e"/></radialGradient>
+<radialGradient id="ranger-hair" cx=".3" cy=".2" r=".95"><stop offset="0" stop-color="#d8995a"/><stop offset=".45" stop-color="#9a6232"/><stop offset="1" stop-color="#55300f"/></radialGradient>
+<linearGradient id="ranger-leather" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a86a36"/><stop offset="1" stop-color="#5c3314"/></linearGradient>
+<linearGradient id="ranger-gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff3a6"/><stop offset=".45" stop-color="#ffcf2e"/><stop offset="1" stop-color="#d0820c"/></linearGradient>
+<radialGradient id="ranger-buckle" cx=".35" cy=".3" r=".7"><stop offset="0" stop-color="#fff6c0"/><stop offset=".5" stop-color="#f2b81e"/><stop offset="1" stop-color="#a8650a"/></radialGradient>

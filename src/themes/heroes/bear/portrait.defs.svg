@@ -1,0 +1,9 @@
+<radialGradient id="bear-fur" cx=".38" cy=".3" r=".8"><stop offset="0" stop-color="#e2b27a"/><stop offset=".45" stop-color="#ad7642"/><stop offset="1" stop-color="#4f2c12"/></radialGradient>
+<radialGradient id="bear-ear" cx=".38" cy=".3" r=".75"><stop offset="0" stop-color="#d09a62"/><stop offset=".5" stop-color="#9a6438"/><stop offset="1" stop-color="#55321a"/></radialGradient>
+<radialGradient id="bear-inner" cx=".6" cy=".65" r=".7"><stop offset="0" stop-color="#ffe4c4"/><stop offset=".55" stop-color="#e8b88a"/><stop offset="1" stop-color="#a87148"/></radialGradient>
+<radialGradient id="bear-muzzle" cx=".4" cy=".3" r=".8"><stop offset="0" stop-color="#fff6e8"/><stop offset=".45" stop-color="#f2d2a6"/><stop offset="1" stop-color="#c28e5c"/></radialGradient>
+<radialGradient id="bear-nose" cx=".4" cy=".3" r=".75"><stop offset="0" stop-color="#6e5c86"/><stop offset=".5" stop-color="#2b2340"/><stop offset="1" stop-color="#110b1d"/></radialGradient>
+<linearGradient id="bear-tunic" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e05a68"/><stop offset=".45" stop-color="#b23a48"/><stop offset="1" stop-color="#6e1826"/></linearGradient>
+<radialGradient id="bear-tunic-side" cx=".5" cy=".5" r=".55"><stop offset=".55" stop-color="#3a0a14" stop-opacity="0"/><stop offset="1" stop-color="#3a0a14" stop-opacity=".45"/></radialGradient>
+<linearGradient id="bear-gold" x1="0" y1="0" x2=".7" y2="1"><stop offset="0" stop-color="#fff3a6"/><stop offset=".45" stop-color="#ffcf3a"/><stop offset="1" stop-color="#b9770c"/></linearGradient>
+<linearGradient id="bear-gold-rim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff0a0"/><stop offset="1" stop-color="#8a5508"/></linearGradient>

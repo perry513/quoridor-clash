@@ -1,0 +1,64 @@
+/*
+ * Hero animations. Every hero figure (drawn or fallback) exposes the same
+ * class hooks: .hero-shadow, .hero-figure, .hero-eyes, .hero-arm (with an
+ * inline --pivot), so all heroes animate the same way with no per-hero CSS.
+ * A hero can tune its cheer via --cheer-angle on .hero-arm (default -28deg).
+ */
+.hero { overflow: visible; }
+.hero-figure, .hero-shadow, .hero-eyes, .hero-arm { transform-box: fill-box; }
+.hero-shadow { transform-origin: center; }
+.hero-figure { transform-origin: 50% 100%; }
+
+/* Blink: every ~4.6s, staggered per hero via --blink-delay. */
+.hero-eyes {
+  transform-origin: center;
+  animation: hero-blink 4.6s linear infinite;
+  animation-delay: var(--blink-delay, 0s);
+}
+
+/* Idle bob: setup cards always, board piece only on its turn. */
+.card-hero .hero-figure { animation: hero-bob 2.6s ease-in-out infinite; animation-delay: var(--bob-delay, 0s); }
+.pawn.current .hero-figure { animation: hero-bob-turn 1.1s ease-in-out infinite; }
+.pawn.current .hero-shadow { animation: hero-shadow-bob 1.1s ease-in-out infinite; }
+
+/* Cheer: win modal figure and the winning piece. */
+.cheer .hero-figure, .pawn.winner .hero-figure { animation: hero-cheer-bounce .62s ease-in-out infinite; }
+.cheer .hero-shadow, .pawn.winner .hero-shadow { animation: hero-shadow-bob .62s ease-in-out infinite; }
+.cheer .hero-arm, .pawn.winner .hero-arm {
+  transform-origin: var(--pivot, 50% 100%);
+  animation: hero-cheer-arm .31s ease-in-out infinite alternate;
+}
+
+/* Hop when a piece moves; declared after cheer so the winning hop still shows (the pawn group itself slides via the Web Animations API). */
+.pawn.hopping .hero-figure { animation: hero-hop .42s cubic-bezier(.3,.7,.4,1); }
+.pawn.hopping .hero-shadow { animation: hero-shadow-hop .42s ease-in-out; }
+
+@keyframes hero-blink {
+  0%, 93%, 100% { transform: scaleY(1); }
+  95.5% { transform: scaleY(.1); }
+}
+@keyframes hero-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+@keyframes hero-bob-turn { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+@keyframes hero-shadow-bob { 0%, 100% { transform: scale(1); } 50% { transform: scale(.88); } }
+@keyframes hero-hop {
+  0% { transform: translateY(0) scale(1, 1); }
+  12% { transform: translateY(0) scale(1.06, .92); }
+  50% { transform: translateY(-26px) scale(.96, 1.05); }
+  88% { transform: translateY(0) scale(1.05, .94); }
+  100% { transform: translateY(0) scale(1, 1); }
+}
+@keyframes hero-shadow-hop { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(.55); opacity: .6; } }
+@keyframes hero-cheer-bounce {
+  0%, 100% { transform: translateY(0) scale(1, 1); }
+  15% { transform: translateY(0) scale(1.05, .94); }
+  50% { transform: translateY(-12px) scale(.97, 1.04); }
+}
+@keyframes hero-cheer-arm {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(var(--cheer-angle, -28deg)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .confetti { display: none; }
+}

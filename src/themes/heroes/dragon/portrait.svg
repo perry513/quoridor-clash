@@ -1,0 +1,32 @@
+<path d="M10 104 Q11 80 50 76 Q89 80 90 104 Z" fill="url(#dragon-body)"/>
+<path d="M20 90 Q30 80 44 79" stroke="#8ef0b8" stroke-width="2" fill="none" stroke-linecap="round" opacity=".55"/>
+<path d="M37 86 Q50 79 63 86 L61 104 L39 104Z" fill="url(#dragon-belly)"/>
+<path d="M40 91 Q50 88 60 91 M40 97 Q50 94 60 97" stroke="#6bb584" stroke-width="1.2" fill="none" opacity=".6"/>
+<path d="M40 90.3 Q50 87.3 60 90.3 M40 96.3 Q50 93.3 60 96.3" stroke="#fff" stroke-width=".7" fill="none" opacity=".45"/>
+<ellipse cx="51" cy="81" rx="22" ry="6" fill="url(#sh-ao)"/><ellipse cx="51" cy="82" rx="13" ry="3.6" fill="#0a4a2b" opacity=".4" filter="url(#sh-blur)"/>
+<path d="M33 40 Q22 22 31 12 Q35 27 43 33Z" fill="url(#dragon-horn)"/>
+<path d="M30.5 15 Q28 25 34 35" stroke="#fff" stroke-width="1.3" fill="none" stroke-linecap="round" opacity=".8"/>
+<path d="M67 40 Q78 22 69 12 Q65 27 57 33Z" fill="url(#dragon-horn)"/>
+<path d="M68 16 Q70 24 66 31" stroke="#fff" stroke-width="1" fill="none" stroke-linecap="round" opacity=".6"/>
+<path d="M40 35 L44 20 L50 28 L56 20 L60 35Z" fill="url(#dragon-spike)"/><path d="M46 33 L50 17 L54 33Z" fill="url(#dragon-spike)"/>
+<path d="M42.6 28 L44 22.5 M48.8 26 L50 20.5" stroke="#fff3df" stroke-width="1.1" stroke-linecap="round"/>
+<path d="M28 52 L13 44 Q14 54 21 61Z" fill="url(#dragon-frill)"/>
+<path d="M72 52 L87 44 Q86 54 79 61Z" fill="url(#dragon-frill-r)"/>
+<path d="M15.5 46.5 Q20 49 26 52" stroke="#d4ffe6" stroke-width="1" stroke-linecap="round" fill="none" opacity=".75"/><path d="M84.5 46.5 Q80 49 74 52" stroke="#a6f5c8" stroke-width=".9" stroke-linecap="round" fill="none" opacity=".45"/>
+<ellipse cx="26.5" cy="55" rx="4" ry="6" fill="url(#sh-ao)" opacity=".8"/><ellipse cx="73.5" cy="55" rx="4" ry="6" fill="url(#sh-ao)" opacity=".8"/>
+<circle cx="52" cy="58" r="27" fill="#06341f" opacity=".45" filter="url(#sh-blur-lg)"/><circle cx="50" cy="55" r="25" fill="url(#dragon-scale)"/>
+<path d="M66 72 A25 25 0 0 0 74.5 52" stroke="url(#dragon-rim)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<ellipse cx="50" cy="35" rx="10" ry="2.6" fill="url(#sh-ao)" opacity=".6"/><ellipse cx="38" cy="37" rx="5" ry="2.5" fill="url(#sh-ao)" opacity=".5"/><ellipse cx="62" cy="37" rx="5" ry="2.5" fill="url(#sh-ao)" opacity=".5"/>
+<ellipse cx="39" cy="40" rx="11" ry="7" fill="url(#sh-gloss)" opacity=".8" transform="rotate(-25 39 40)"/>
+<ellipse cx="41" cy="53" rx="3.9" ry="4.9" fill="url(#sh-eye)"/>
+<circle cx="39.7" cy="51.3" r="1.7" fill="#fff"/><circle cx="42.4" cy="55.2" r=".75" fill="#fff"/>
+<ellipse cx="59" cy="53" rx="3.9" ry="4.9" fill="url(#sh-eye)"/>
+<circle cx="57.7" cy="51.3" r="1.7" fill="#fff"/><circle cx="60.4" cy="55.2" r=".75" fill="#fff"/>
+<ellipse cx="34" cy="61" rx="5.5" ry="3.3" fill="url(#sh-blush)"/>
+<ellipse cx="66" cy="61" rx="5.5" ry="3.3" fill="url(#sh-blush)"/>
+<ellipse cx="50.5" cy="69" rx="12" ry="5" fill="#0d5a35" opacity=".35" filter="url(#sh-blur)"/>
+<ellipse cx="50" cy="66" rx="12.5" ry="8.5" fill="url(#dragon-snout)"/>
+<ellipse cx="45" cy="61.8" rx="4" ry="1.8" fill="#fff" opacity=".6"/>
+<ellipse cx="46" cy="64" rx="1.5" ry="1.7" fill="#137447"/>
+<ellipse cx="54" cy="64" rx="1.5" ry="1.7" fill="#137447"/>
+<path d="M45 68.5 Q50 72.5 55 68.5" stroke="#137447" stroke-width="2.2" fill="none" stroke-linecap="round"/>

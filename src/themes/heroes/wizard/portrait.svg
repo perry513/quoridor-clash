@@ -1,0 +1,42 @@
+<path d="M10 104 Q11 80 50 76 Q89 80 90 104 Z" fill="url(#wizard-robe)"/>
+<path d="M18 86 Q30 78 50 77 Q36 80 26 92Z" fill="#fff" opacity=".22"/>
+<path d="M18 92 Q24 84 36 82" stroke="#e2d6ff" stroke-width="2.4" stroke-linecap="round" fill="none" opacity=".5"/>
+<path d="M90 104 Q89 86 74 80 Q84 88 84 104Z" fill="#1e0c5a" opacity=".35"/>
+<ellipse cx="51" cy="88" rx="22" ry="7" fill="url(#sh-ao)" filter="url(#sh-blur)"/>
+<polygon points="70.0,86.5 71.4,89.8 75.0,90.1 72.3,92.4 73.1,95.9 70.0,94.1 66.9,95.9 67.7,92.4 65.0,90.1 68.6,89.8" fill="url(#wizard-gold)"/>
+<circle cx="68.6" cy="90.2" r=".8" fill="#fff"/>
+<circle cx="50" cy="56" r="24.5" fill="url(#sh-skin)"/>
+<circle cx="50" cy="56" r="24.5" fill="url(#wizard-faceshade)"/>
+<circle cx="50" cy="56" r="24.5" fill="url(#wizard-rim)"/>
+<ellipse cx="50" cy="51" rx="23" ry="4.5" fill="#5a2a3a" opacity=".3" filter="url(#sh-blur)"/>
+<ellipse cx="50" cy="52" rx="21" ry="3.6" fill="url(#sh-ao)" filter="url(#sh-blur)"/>
+<ellipse cx="33.5" cy="57.5" rx="3.4" ry="5" transform="rotate(-18 33.5 57.5)" fill="url(#sh-gloss)" opacity=".7"/>
+<ellipse cx="40.5" cy="57" rx="3.8" ry="4.8" fill="url(#sh-eye)"/>
+<circle cx="39.2" cy="55.1" r="1.6" fill="#fff"/><circle cx="42" cy="59.1" r=".7" fill="#fff"/>
+<ellipse cx="59.5" cy="57" rx="3.8" ry="4.8" fill="url(#sh-eye)"/>
+<circle cx="58.2" cy="55.1" r="1.6" fill="#fff"/><circle cx="61" cy="59.1" r=".7" fill="#fff"/>
+<ellipse cx="34.5" cy="63" rx="5" ry="3" fill="url(#sh-blush)"/>
+<ellipse cx="65.5" cy="63" rx="5" ry="3" fill="url(#sh-blush)"/>
+<ellipse cx="51" cy="80" rx="18" ry="6" fill="url(#sh-ao)" filter="url(#sh-blur)" opacity=".8"/>
+<path d="M28.5 61 Q28 71 32.5 78.5 Q34 84 39.5 86.5 Q43 91 50 91.2 Q57 91 60.5 86.5 Q66 84 67.5 78.5 Q72 71 71.5 61 Q66 70.5 50 70 Q34 70.5 28.5 61Z" fill="url(#wizard-beard)"/>
+<path d="M28.5 61 Q28 71 32.5 78.5 Q34 84 39.5 86.5 Q43 91 50 91.2 Q57 91 60.5 86.5 Q66 84 67.5 78.5 Q72 71 71.5 61 Q66 70.5 50 70 Q34 70.5 28.5 61Z" fill="url(#wizard-beardshade)"/>
+<path d="M32.5 71 Q34 76.5 37.5 80 M41.5 74.5 Q42.5 81.5 46 86.5 M50.5 76 Q51 79.5 50 82" stroke="#fff" stroke-width="1.6" stroke-linecap="round" fill="none" opacity=".9"/>
+<path d="M57.5 76.5 Q58 82 55.5 87 M64.5 72 Q66 76.5 64 80.5 M37 83 Q40.5 87 44 88.5" stroke="#9a8fca" stroke-width="1.2" stroke-linecap="round" fill="none" opacity=".55"/>
+<ellipse cx="50" cy="68.5" rx="11" ry="2.6" fill="url(#sh-ao)" filter="url(#sh-blur)"/>
+<path d="M50 65.4 Q45 61.4 40 64 Q37 66.5 39 68.6 Q44 70 50 67.4 Q56 70 61 68.6 Q63 66.5 60 64 Q55 61.4 50 65.4Z" fill="url(#wizard-beard)"/>
+<path d="M41 65 Q44 63.6 47.5 65" stroke="#fff" stroke-width="1.1" stroke-linecap="round" fill="none"/>
+<circle cx="50" cy="62.5" r="3.6" fill="url(#sh-skin)"/>
+<circle cx="50" cy="62.5" r="3.6" fill="#e0866a" opacity=".25"/>
+<circle cx="48.8" cy="61.3" r="1.1" fill="#fff" opacity=".85"/>
+<ellipse cx="52" cy="49" rx="28" ry="5" fill="#1a1030" opacity=".35" filter="url(#sh-blur)"/><path d="M26 46 Q38 33 42 11 Q44 5 52 6 Q58 7.5 62 5 Q61 11 58 15 Q62 32 74 46Z" fill="url(#wizard-hat)" stroke="#3a1c94" stroke-opacity=".35" stroke-width=".8"/>
+<path d="M38 36 Q42 24 44 11 Q46 7 50 6.5 Q45 10 44.5 18 Q43 30 38 36Z" fill="#fff" opacity=".45"/>
+<path d="M60 26 Q63 37 72 45 L64 45 Q61 36 60 26Z" fill="#3a1f8a" opacity=".3"/>
+<ellipse cx="50" cy="46.5" rx="29.5" ry="7" fill="url(#wizard-brim)"/>
+<path d="M24 45 Q34 41 50 41 Q38 42.4 26 47.5Z" fill="#fff" opacity=".45"/>
+<path d="M34.5 53 Q38.5 49.2 45 51.2 Q41 52 36.6 54.4Z" fill="url(#wizard-beard)"/>
+<path d="M65.5 53 Q61.5 49.2 55 51.2 Q59 52 63.4 54.4Z" fill="url(#wizard-beard)"/>
+<polygon points="46.0,20.5 47.4,23.8 51.0,24.1 48.3,26.4 49.1,29.9 46.0,28.1 42.9,29.9 43.7,26.4 41.0,24.1 44.6,23.8" fill="url(#wizard-gold)"/>
+<circle cx="44.6" cy="24.3" r=".8" fill="#fff"/>
+<polygon points="57.5,32.5 58.5,34.8 61.0,35.0 59.1,36.6 59.7,39.0 57.5,37.7 55.3,39.0 55.9,36.6 54.0,35.0 56.5,34.8" fill="url(#wizard-gold)"/>
+<polygon points="53.0,10.6 53.7,12.3 55.6,12.5 54.2,13.7 54.6,15.5 53.0,14.6 51.4,15.5 51.8,13.7 50.4,12.5 52.2,12.3" fill="url(#wizard-gold)"/>
+<circle cx="62.3" cy="5.3" r="2.7" fill="url(#wizard-gold)"/>

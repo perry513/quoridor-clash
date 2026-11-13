@@ -1,0 +1,7 @@
+<radialGradient id="princess-hair" cx=".34" cy=".24" r=".85"><stop offset="0" stop-color="#fff0a8"/><stop offset=".38" stop-color="#f8c24a"/><stop offset=".72" stop-color="#d58e24"/><stop offset="1" stop-color="#9a5a10"/></radialGradient>
+<linearGradient id="princess-hairback" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4b93e"/><stop offset=".5" stop-color="#c98420"/><stop offset="1" stop-color="#8a500c"/></linearGradient>
+<linearGradient id="princess-dress" x1="0" y1="0" x2=".3" y2="1"><stop offset="0" stop-color="#ff9cc9"/><stop offset=".45" stop-color="#ec5a9e"/><stop offset="1" stop-color="#a82a66"/></linearGradient>
+<linearGradient id="princess-gold" x1="0" y1="0" x2=".4" y2="1"><stop offset="0" stop-color="#fff7c4"/><stop offset=".35" stop-color="#ffd23f"/><stop offset=".7" stop-color="#e9a516"/><stop offset="1" stop-color="#a86a08"/></linearGradient>
+<radialGradient id="princess-gem" cx=".35" cy=".3" r=".75"><stop offset="0" stop-color="#ffe0ef"/><stop offset=".4" stop-color="#ff5aa3"/><stop offset="1" stop-color="#9a1352"/></radialGradient>
+<linearGradient id="princess-collar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffb3d5"/></linearGradient>
+<radialGradient id="princess-pearl" cx=".35" cy=".3" r=".7"><stop offset="0" stop-color="#ffffff"/><stop offset=".5" stop-color="#fff3b0"/><stop offset="1" stop-color="#d9a21e"/></radialGradient>

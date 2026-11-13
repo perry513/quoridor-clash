@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Quoridor Clash</title>
+  <meta name="description" content="Quoridor Clash: a friendly wall-and-race board game for 2 or 4 players on one device. Pick a hero, build walls, and be first to reach the far side.">
+  <meta name="theme-color" content="#1b1946">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@600;700;800;900&display=swap">
+</head>
+<body>
+<div class="app">
+
+  <!-- ================= SETUP ================= -->
+  <section id="setup" aria-label="Game setup">
+    <header class="logo">
+      <h1 class="logo-word">Quoridor</h1>
+      <div class="logo-ribbon"><span>Clash</span></div>
+      <p class="tagline">Build walls, outsmart your friends, race to the far side.</p>
+    </header>
+
+    <div class="setup-grid">
+      <section class="panel" aria-labelledby="heroesTitle">
+        <div class="panel-head">
+          <h2 id="heroesTitle">Choose your heroes</h2>
+          <div class="seg" role="group" aria-label="Number of players">
+            <button type="button" data-count="2">2 players</button>
+            <button type="button" data-count="4">4 players</button>
+          </div>
+        </div>
+        <div class="slots" id="slots"></div>
+        <p class="roster-label">Pick a player card, then tap a hero to give them. Selected: <b id="activeLabel">Player 1</b></p>
+        <div class="roster" id="roster"></div>
+      </section>
+
+      <section class="panel" aria-labelledby="arenaTitle">
+        <h2 id="arenaTitle">Arena</h2>
+        <h3>Board</h3>
+        <div class="opts" id="boardOpts"></div>
+        <h3>Walls</h3>
+        <div class="opts" id="wallOpts"></div>
+        <h3>Rules</h3>
+        <div class="opt-rows">
+          <div class="opt-row">
+            <label for="hintsToggle">Show where you can move</label>
+            <button type="button" class="switch" role="switch" id="hintsToggle" aria-checked="true"></button>
+          </div>
+          <div class="opt-row">
+            <span>Who goes first</span>
+            <div class="seg" role="group" aria-label="Who goes first">
+              <button type="button" data-first="p1">Player 1</button>
+              <button type="button" data-first="random">Random</button>
+            </div>
+          </div>
+          <div class="opt-row">
+            <span>Walls per player</span>
+            <div class="stepper">
+              <button type="button" id="wallsMinus" aria-label="Fewer walls">−</button>
+              <output id="wallsOut">10</output>
+              <button type="button" id="wallsPlus" aria-label="More walls">+</button>
+            </div>
+          </div>
+        </div>
+        <p class="setup-note">Classic rules: 10 walls each with 2 players, 5 with 4.</p>
+      </section>
+    </div>
+
+    <div class="start-row">
+      <button type="button" class="btn" data-open-rules>How to play</button>
+      <button type="button" class="btn gold big" id="startBtn">Start game ▶</button>
+    </div>
+    <p class="fanline">Fan-made game based on the Quoridor rules. Not affiliated with Gigamic.</p>
+  </section>
+
+  <!-- ================= GAME ================= -->
+  <section id="game" aria-label="Game" hidden>
+    <header class="topbar">
+      <div class="mini-logo">Quoridor<span>Clash</span></div>
+      <div class="top-actions">
+        <button type="button" class="btn small" data-open-rules>How to play</button>
+        <button type="button" class="btn small" id="restartBtn">Restart</button>
+        <button type="button" class="btn small" id="heroesBtn">Change heroes</button>
+      </div>
+    </header>
+
+    <div class="game-grid">
+      <div class="panel turn-card" id="turnCard" aria-live="polite"></div>
+
+      <div class="panel actions">
+        <div class="seg wide" role="group" aria-label="Action">
+          <button type="button" id="modeMove">Move</button>
+          <button type="button" id="modeWall">Build wall <span class="count" id="wallCount">10</span></button>
+        </div>
+        <div class="action-row">
+          <button type="button" class="btn small" id="rotateBtn"></button>
+          <button type="button" class="btn small" id="undoBtn"></button>
+        </div>
+      </div>
+
+      <ul class="players" id="playerList"></ul>
+
+      <div class="board-wrap">
+        <svg id="board" role="img" aria-label="Game board"></svg>
+        <div class="toast" id="toast" role="status"></div>
+      </div>
+    </div>
+    <p class="fanline">Fan-made game based on the Quoridor rules. Not affiliated with Gigamic.</p>
+  </section>
+</div>
+
+<!-- Win -->
+<div class="modal" id="winModal" hidden>
+  <div class="confetti" id="confetti"></div>
+  <div class="panel modal-card" id="winCard" role="dialog" aria-modal="true" aria-labelledby="winTitle">
+    <div class="win-figure" id="winFigure"></div>
+    <div class="win-title" id="winTitle"></div>
+    <p class="win-sub" id="winSub"></p>
+    <div class="modal-actions">
+      <button type="button" class="btn" id="winUndo">Undo last move</button>
+      <button type="button" class="btn" id="winHeroes">Change heroes</button>
+      <button type="button" class="btn gold" id="winAgain">Play again</button>
+    </div>
+  </div>
+</div>
+
+<!-- Rules -->
+<div class="modal" id="rulesModal" hidden>
+  <div class="panel modal-card" role="dialog" aria-modal="true" aria-labelledby="rulesTitle">
+    <button type="button" class="close-x" data-close-rules aria-label="Close">×</button>
+    <h2 id="rulesTitle">How to play</h2>
+    <ol class="rules">
+      <li><span class="num">1</span><div><b>Race to the far side</b><span>Be the first hero to reach any square on the opposite edge. Your goal edge glows in your colour.</span></div></li>
+      <li><span class="num">2</span><div><b>One action per turn</b><span>Move one square up, down, left or right, or build one wall.</span></div></li>
+      <li><span class="num">3</span><div><b>Walls block the way</b><span>Each wall is two squares long and sits in the gaps. Nobody can walk through it.</span></div></li>
+      <li><span class="num">4</span><div><b>Never trap anyone</b><span>Every hero must always have some path to their goal. The game will not let you build a wall that seals someone in.</span></div></li>
+      <li><span class="num">5</span><div><b>Jump over heroes</b><span>Face to face with another hero? Hop over them. If a wall or the board edge is behind them, step diagonally instead.</span></div></li>
+      <li><span class="num">6</span><div><b>Wall supply</b><span>10 walls each with 2 players, 5 each with 4. When yours run out, you can only move.</span></div></li>
+    </ol>
+    <div class="modal-actions"><button type="button" class="btn gold" data-close-rules>Got it</button></div>
+  </div>
+</div>
+
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
